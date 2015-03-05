@@ -1,0 +1,101 @@
+#indexPicture
+{
+background-image: url("Images/CoffeeBeans.jpg");
+width:100%;
+height: 1000px;
+background-repeat: no-repeat;
+background-position: center; 
+background-color: #4527A0;
+background-size:100% 100%;
+position: fixed;
+top:0;
+left:0;
+
+}
+
+
+a:link{color:#12349F; text-decoration: none;}
+a:visited{color:#12349F; text-decoration: none;}
+a:hover{color:#12349F; text-decoration: none;}
+a:active{color:#12349F; text-decoration: none;}
+
+#Nav
+{
+height: 50px;
+width: 100%;
+background-color: #FFFFFF;
+margin-bottom: 50px;
+}
+#Nav.fixed
+{
+position: fixed;
+top: 0;
+}
+#Nav #inner
+{
+height: 50px;
+width: 950px;
+margin: 0 auto;
+}
+#NavHome
+{
+float: left;
+height: 39px;
+width: 100px;
+text-align: center;
+padding-top: 10px;
+}
+#NavHome:hover
+{
+background-color: #490064;
+}
+
+#NavAbout
+{
+float: left;
+height: 39px;
+width: 100px;
+margin-left: 10px;
+text-align: center;
+padding-top: 10px;
+}
+#NavAbout:hover
+{
+background-color: #490064;
+}
+
+#NavContact
+{
+float: left;
+height: 39px;
+width: 100px;
+margin-left: 10px;
+text-align: center;
+padding-top: 10px;
+}
+#NavContact:hover
+{
+background-color: #490064;
+}
+
+
+
+
+#seniorStaff
+{
+width: 100%;
+height: 500px;
+background-color: #445588;
+}
+
+#cCButton, #cC , #hCButton, #hC{
+	width: 700px;
+    padding: 10px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+#cC , #hC{
+    padding: 10px;
+    display: none;
+}
